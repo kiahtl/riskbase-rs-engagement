@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <b className='app-header'>Resident Engagement by RiskBase</b>
+      <div className='app-wrapper'>
+        <div>
+          <span>Victoria House</span>
+          <span>30 Roland Rd, Guildford, GU23 8VB</span>
+        </div>
+        <div className='info-wrapper'>
+          <h3>Your Building</h3>
+
+        </div>
+      </div>
     </div>
   );
 }
