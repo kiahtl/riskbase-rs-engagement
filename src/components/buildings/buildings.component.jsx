@@ -27,7 +27,7 @@ class Buildings extends Component {
                 {buildings.map(building => {
                     const { id } = building;
                     return(<Building building={building} key={id}/>)
-                })};
+                })}
             </div>
         )
     }

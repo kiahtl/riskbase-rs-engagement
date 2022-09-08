@@ -1,0 +1,58 @@
+.building-title {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+}
+
+.building-name {
+    padding-bottom: 6px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.building-address {
+    color: #999;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+.building-info {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.your-building {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: min-content;
+    gap: 1rem;
+    align-items: end;
+}
+
+.building-info .building-icon {
+    font-size: 42px;
+}
+
+.building-info h3 {
+    font-size: 24px;
+}
+
+.building-info h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.building-info p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.info {
+    display: grid;
+    gap: 1rem;
+}
+
+.info ul {
+    padding: 0.8rem 0;
+
+}

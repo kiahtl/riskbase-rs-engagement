@@ -1,0 +1,16 @@
+ul {
+    padding-left: 0;
+    display: grid;
+    row-gap: 1rem;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../../assets/svg/list-bullet.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-right: 1rem;
+    color: #8bb74e;
+}
