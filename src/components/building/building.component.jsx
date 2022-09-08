@@ -16,6 +16,9 @@ class Building extends Component {
                     <span className="building-name">{ name }</span>
                     <span className="building-address">{ full_address }</span>
                 </div>
+                <div className="building-image">
+                    <img src={require("../../assets/img/victoria-house.webp")} alt="Victoria House"/>
+                </div>
                 <div className='info-wrapper'>
                     <div className="building-info">  
                         <div className="your-building"> 
