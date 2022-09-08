@@ -15,12 +15,14 @@
     font-weight: 300;
     letter-spacing: 0px;
 }
-
+.building-container {
+    display: grid;
+    row-gap: 2rem;
+}
 .building-image img {
     margin: auto;
     display: block;
     width: 100%;
-    max-width: 830px;
     border-radius: 20px;
     filter: drop-shadow(0px 0px 12px #f1f1f1);
     -webkit-transition: all .3s linear;

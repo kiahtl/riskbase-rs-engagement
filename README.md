@@ -5,6 +5,7 @@ This is a copy project to show an initial attempt at transferring the RiskBase S
 The Buildings (plural) parent component has been added with the view in mind that there would be a place to store multiple buildings and filter through.
 
 This is a working progress with less focus on CSS so some styling may look inaccurate and some CSS files could have improvements.
+Responsive CSS has not been implemented.
 
 The codebase currently does not include testing due to time restrictions.
 

@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 1fr 70% 1fr;
+  grid-template-columns: 1fr minmax(min-content, 830px) 1fr;
   row-gap: 2rem;
   text-align: center;
   background-color: #F1F1F1;
@@ -25,11 +25,7 @@
   grid-column: 2 / span 1;
   display: grid;
   row-gap: 2rem;
-}
-
-.building-container {
-  display: grid;
-  row-gap: 2rem;
+  max-width: 830px;
 }
 
 .info-wrapper {
